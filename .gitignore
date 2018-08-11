@@ -3,3 +3,6 @@ node_modules
 Gemfile.lock
 .sass-cache
 *.gem
+
+*.iml
+.idea
