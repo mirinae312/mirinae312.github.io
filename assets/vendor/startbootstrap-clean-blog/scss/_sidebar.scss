@@ -11,6 +11,58 @@
   &.active {
     left: 0;
   }
+
+  .container {
+    background-color: transparent;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .nav {
+      > ul.nav-list {
+        list-style-type: none;
+        padding-left: 0;
+        padding-right: 0;
+        > li.nav-item {
+          width: 240px;
+          > a {
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .side-footer {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      a {
+        color: #FFFFFF;
+      }
+
+      .fa {
+        &.fa-inverse {
+          color: #000000;
+        }
+      }
+
+      .copyright {
+        font-size: 13px;
+      }
+    }
+  }
 }
 
 #content {

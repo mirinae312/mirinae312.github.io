@@ -1,2 +1,55 @@
 <nav id="sidebar">
+    <div class="container">
+        <div class="nav">
+            <ul class="nav-list ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{"/posts" | relative_url }}">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="side-footer">
+            <ul class="list-inline text-center">
+                {% if site.twitter_username %}
+                <li class="list-inline-item">
+                    <a href="https://www.twitter.com/{{ site.twitter_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.facebook_username %}
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.github_username %}
+                <li class="list-inline-item">
+                    <a href="https://github.com/{{ site.github_username }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+            <p class="copyright text-muted text-center">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        </div>
+    </div>
 </nav>
