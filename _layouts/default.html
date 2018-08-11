@@ -5,19 +5,26 @@
   {% include head.html %}
 
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        {% include sidebar.html %}
+    <div class="wrapper">
+      {% include sidebar.html %}
 
-        {% include navbar.html %}
+      {% include navbar.html %}
 
-        {{ content }}
-      </div>
+      <div id="content">
+        <nav class="navbar">
+          <button type="button" id="close-sidebar">
+            <span>Sidebar Close</span>
+          </button>
+        </nav>
+
+          {{ content }}
+
+          {% include footer.html %}
+
+        </div>
     </div>
 
-
-
-    {% include footer.html %}
+    <div class="overlay"></div>
 
     {% include scripts.html %}
 
