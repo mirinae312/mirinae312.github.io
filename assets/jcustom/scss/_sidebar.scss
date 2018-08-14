@@ -37,14 +37,15 @@
     .nav {
       margin-top: 100px;
       padding-left: 20px;
-      padding-right: 20px;
 
       > ul.nav-list {
         list-style-type: none;
         padding-left: 0;
         padding-right: 0;
+
         > li.nav-item {
-          width: 240px;
+          width: 200px;
+
           > a {
             color: #FFFFFF;
             font-size: 20px;
@@ -54,6 +55,19 @@
 
             &:hover {
               text-decoration: underline;
+            }
+          }
+
+          > ul.sub-nav-list {
+            list-style-type: none;
+            padding-left: 25px;
+
+            > li.sub-nav-item {
+              > a {
+                color: #FFFFFF;
+                font-size: 18px;
+                font-weight: 100;
+              }
             }
           }
         }
