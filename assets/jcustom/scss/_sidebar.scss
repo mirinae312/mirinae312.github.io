@@ -92,6 +92,11 @@
   position: absolute;
   top: 0;
   padding-left: 270px;
+
+  .row {
+    max-width: 860px;
+  }
+
 }
 
 #close-sidebar {
