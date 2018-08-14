@@ -2,6 +2,11 @@
 layout: page
 title: Develop
 background: '/img/develop.png'
+
+pagination:
+  enabled: true
+  category: develop
+  per_page: 10
 ---
 
 {% for post in paginator.posts %}
@@ -14,7 +19,7 @@ background: '/img/develop.png'
     <p class="post-content">{{ post.description }}</p>
   </article>
 
-  <hr class="my-2">
+  <hr>
 
 {% endfor %}
 

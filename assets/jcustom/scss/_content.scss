@@ -17,6 +17,10 @@
   display: none;
 }
 
+header {
+  padding: 10px 0px 0px 0px;
+}
+
 @media (max-width: 768px) {
   #close-sidebar {
     display: block;
