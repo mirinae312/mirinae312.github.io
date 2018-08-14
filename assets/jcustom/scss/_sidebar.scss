@@ -33,32 +33,35 @@
 
     .nav {
       margin-top: 80px;
-      padding-left: 20px;
 
       > ul.nav-list {
+        width: 100vh;
+
         > li.nav-item {
           > a {
             color: #FFFFFF;
+            padding-left: 45px;
             font-size: 20px;
             font-weight: 800;
             letter-spacing: 1px;
-            text-transform: uppercase;
+
+            -webkit-transition: background-color 0.2s;
+            -moz-transition: background-color 0.2s;
+            -ms-transition: background-color 0.2s;
+            -o-transition: background-color 0.2s;
+            transition: background-color 0.2s;
 
             &:hover {
-              text-decoration: underline;
+              background-color: rgba(50, 50, 50, 0.5);;
             }
           }
 
-          > ul.sub-nav-list {
-            color: #FFFFFF;
-
-            > li.sub-nav-item {
-              > a {
-                color: #FFFFFF;
-                font-size: 18px;
-                font-weight: 100;
-              }
-            }
+          &.sub a {
+            font-size: 18px;
+            font-weight: 400;
+            padding-left: 50px;
+            padding-top: 5px;
+            padding-bottom: 5px;
           }
         }
       }

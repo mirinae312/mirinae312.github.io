@@ -1,23 +1,21 @@
 <nav id="sidebar">
-    <div class="container">
+    <div class="container px-0">
         <div class="logo">
             <p class="text-center">J-log</p>
         </div>
         <div class="nav">
             <ul class="nav-list list-unstyled">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+                    <a class="nav-link" href="{{"/" | relative_url }}">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+                    <a class="nav-link" href="{{"/about" | relative_url }}">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{"/posts" | relative_url }}">Posts</a>
-                    <ul class="sub-nav-list list-unstyled px-3">
-                        <li class="sub-nav-item">
-                            - <a class="sub-nav-link" href="{{"/posts/develop" | relative_url }}">develop</a>
-                        </li>
-                    </ul>
+                    <a class="nav-link" href="{{"/posts" | relative_url }}">POSTS</a>
+                </li>
+                <li class="nav-item sub">
+                    <a class="nav-link" href="{{"/posts/develop" | relative_url }}">- develop</a>
                 </li>
             </ul>
         </div>
