@@ -22,15 +22,14 @@ layout: default
       <!--</div>-->
     <!--</div>-->
   <!--</header>-->
-<header class="home-wallpaper">
-  <img src="/img/favorite.png" />
-</header>
-<div class="ml-sm-auto px-4">
+<div class="row mx-auto">
+  <header class="home-wallpaper mx-auto">
+    <img src="/img/favorite.png" />
+  </header>
+  <div class="px-4">
 
-  {{ content }}
-
-  <!-- Home Post List -->
-  {% for post in site.posts limit : 5 %}
+    <!-- Home Post List -->
+    {% for post in site.posts limit : 5 %}
 
     <article class="post-preview">
       <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -53,12 +52,12 @@ layout: default
 
     <hr>
 
-  {% endfor %}
+    {% endfor %}
 
-  <!-- Pager -->
-  <div class="clearfix">
-    <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+    <!-- Pager -->
+    <div class="clearfix">
+      <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+    </div>
+
   </div>
-
 </div>
-

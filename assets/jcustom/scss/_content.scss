@@ -1,0 +1,43 @@
+#content {
+  min-height: 100vh;
+  transition: all 0.3s;
+  padding-left: 270px;
+
+  .row {
+    max-width: 1000px;
+  }
+
+}
+
+#close-sidebar {
+  display: none
+}
+
+.overlay {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #close-sidebar {
+    display: block;
+  }
+
+  #content {
+    padding: 5px;
+  }
+
+  .overlay {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+    &.active {
+      display: block;
+      opacity: 1;
+    }
+  }
+}
