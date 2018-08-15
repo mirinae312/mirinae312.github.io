@@ -1,9 +1,14 @@
 .post-preview {
 
   margin-top: 25px;
-  .post-title {
-    display: inline;
+
+  a {
+    .post-title {
+      display: inline;
+      font-size: 1.5rem;
+    }
   }
+
 
   .post-meta {
     margin-left: 10px;
@@ -11,7 +16,7 @@
   }
 
   .post-content {
-    padding: 20px 0;
+    padding: 5px 0;
     margin: 0;
   }
 }
