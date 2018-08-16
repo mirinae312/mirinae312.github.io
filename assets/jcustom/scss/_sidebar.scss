@@ -38,9 +38,10 @@
         width: 100vh;
 
         > li.nav-item {
-          > a {
+
+          > a, span {
             color: #FFFFFF;
-            padding-left: 45px;
+            padding-left: 55px;
             font-size: 20px;
             font-weight: 800;
             letter-spacing: 1px;
@@ -50,16 +51,16 @@
             -ms-transition: background-color 0.2s;
             -o-transition: background-color 0.2s;
             transition: background-color 0.2s;
+          }
 
-            &:hover {
-              background-color: rgba(50, 50, 50, 0.5);;
-            }
+          a:hover {
+            background-color: rgba(50, 50, 50, 0.5);;
           }
 
           &.sub a {
             font-size: 18px;
             font-weight: 400;
-            padding-left: 50px;
+            padding-left: 60px;
             padding-top: 5px;
             padding-bottom: 5px;
           }
