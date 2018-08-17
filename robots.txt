@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://mirinae312.github.io/sitemap.xml
