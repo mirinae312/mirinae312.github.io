@@ -11,7 +11,6 @@ categories: develop
 
 <br>
 
----
 
 ![]({{"/img/rabbitmq_quickview/rabbitmq.001.png"| relative_url}})
 
