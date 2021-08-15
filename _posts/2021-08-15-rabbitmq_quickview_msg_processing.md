@@ -93,14 +93,8 @@ Exchange 란?
 - RabbitMQ 에서 plugin 형식으로 배포되는 Exchange
 
 
-
-
-
-
-
-
-
-
+<br>
+<br>
 
 
 #### Reject Message 처리
