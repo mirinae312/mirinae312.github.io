@@ -12,7 +12,7 @@ categories: develop
 
 자동삭제 큐
 
-![queue_auto_del]({{"/img/rabbitmq_quickview/queue_auto_del.png"| relative_url}}){: width="300"}
+![queue_auto_del]({{"/img/rabbitmq_quickview/queue_auto_del.png"| relative_url}}){: width="600"}
 
 - 소비자가 모두 제거(채널 종료)되면 큐도 삭제됨
 - 소비자의 수는 제한 없음
@@ -21,7 +21,7 @@ categories: develop
 
 독점 큐
 
-![queue_monopoly]({{"/img/rabbitmq_quickview/queue_monopoly.png"| relative_url}}){: width="300"}
+![queue_monopoly]({{"/img/rabbitmq_quickview/queue_monopoly.png"| relative_url}}){: width="600"}
 
 - 소비자가 제거(채널 종료)되면 큐도 삭제됨
 - 단일 소비자만 허용
@@ -30,7 +30,7 @@ categories: develop
 
 자동 만료 큐
 
-![queue_ttl]({{"/img/rabbitmq_quickview/queue_ttl.png"| relative_url}}){: width="400"}
+![queue_ttl]({{"/img/rabbitmq_quickview/queue_ttl.png"| relative_url}}){: width="800"}
 
 - 큐가 미사용 상태(소비자가 없거나, 메세지 요청이 없는) 가 TTL 로 지정된 시간동안 지속되면 큐 삭제
 
@@ -38,7 +38,7 @@ categories: develop
 
 영구적인 큐
 
-![queue_perm]({{"/img/rabbitmq_quickview/queue_perm.png"| relative_url}}){: width="400"}
+![queue_perm]({{"/img/rabbitmq_quickview/queue_perm.png"| relative_url}}){: width="800"}
 
 - Queue.Delete 명령 호출 전까지 유지됨
 - 서버 재시작시에도 메세지 유지됨
