@@ -7,7 +7,7 @@ categories: develop
 ---
 
 ### RabbitMQ 살펴보기 - Overview
-- [RabbitMQ Cluster]({{"/rabbitmq_cluster"| relative_url}})
+- [RabbitMQ Cluster]({{ site.baseurl }}{% link _posts/2021-08-15-rabbitmq_quickview_cluster.md %})
 - [RabbitMQ MQ Protocol]({{"/mq_protocol"| relative_url}})
 - [AMQP]({{"/amqp"| relative_url}})
 - [MQTT]({{"/mqtt"| relative_url}})
