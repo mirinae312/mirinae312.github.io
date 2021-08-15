@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RabbitMQ 간단히 살펴보기"
+title:  "RabbitMQ 살펴보기 - MQ Protocol"
 date:   2021-08-15 21:30:00 +0900
 description: "RabbitMQ 살펴보기 - AMQP"
 categories: develop
