@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "RabbitMQ 살펴보기 - AMQP"
