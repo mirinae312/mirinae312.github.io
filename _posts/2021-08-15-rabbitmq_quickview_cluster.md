@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "RabbitMQ 간단히 살펴보기"
-date:   2020-09-01 21:30:00 +0900
+title:  "RabbitMQ 살펴보기 - RabbitMQ Cluster"
+date:   2021-08-15 15:30:00 +0900
 description: "RabbitMQ 살펴보기 - RabbitMQ Cluster"
 categories: develop
 ---
