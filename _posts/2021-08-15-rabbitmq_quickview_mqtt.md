@@ -2,7 +2,7 @@
 layout: post
 title:  "RabbitMQ 살펴보기 - MQTT"
 date:   2021-08-15 15:30:00 +0900
-description: "RabbitMQ 살펴보기 - AMQP"
+description: "RabbitMQ 살펴보기 - MQTT"
 categories: develop
 ---
 
