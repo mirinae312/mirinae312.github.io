@@ -8,8 +8,8 @@ categories: develop
 
 ### RabbitMQ 살펴보기 - Overview
 - [RabbitMQ Cluster]({{ site.baseurl }}{% link _posts/2021-08-15-rabbitmq_quickview_cluster.md %})
-- [RabbitMQ MQ Protocol]({{"/mq_protocol"| relative_url}})
-- [AMQP]({{"/amqp"| relative_url}})
-- [MQTT]({{"/mqtt"| relative_url}})
-- [RabbitMQ Message Processing]({{"/msg_processing"| relative_url}})
-- [RabbitMQ Performance]({{"/performance"| relative_url}})
+- [RabbitMQ MQ Protocol]({{ site.baseurl }}{% link _posts/2021-08-15-mq_protocol.md %}})
+- [AMQP]({{ site.baseurl }}{% link _posts/2021-08-15-amqp.md %})
+- [MQTT]({{ site.baseurl }}{% link _posts/2021-08-15-mqtt.md %})
+- [RabbitMQ Message Processing]({{ site.baseurl }}{% link _posts/2021-08-15-msg_processing.md %})
+- [RabbitMQ Performance]({{ site.baseurl }}{% link _posts/2021-08-15-performance.md %})
