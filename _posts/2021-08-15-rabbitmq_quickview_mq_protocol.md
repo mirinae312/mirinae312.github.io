@@ -42,7 +42,7 @@ Exchange
 
 #### AMQP - Message Publish
 
-![amqp_msg_publish]({{"/img/rabbitmq_quickview/amqp_msg_publish.png"| relative_url}})
+![amqp_msg_publish]({{"/img/rabbitmq_quickview/amqp_msg_publish.png =800x"| relative_url}})
 
 AMQP 명령은 class 와 method 로 구성됨
 - ex. ‘Connection.Start’ 명령은 ‘Connection’ class 와 ‘Start’ method 로 구성된 것
