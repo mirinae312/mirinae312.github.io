@@ -42,7 +42,7 @@ Exchange
 
 #### AMQP - Message Publish
 
-![amqp_msg_publish]({{"/img/rabbitmq_quickview/amqp_msg_publish.png"| relative_url}}){: width="600"}
+![amqp_msg_publish]({{"/img/rabbitmq_quickview/amqp_msg_publish.png"| relative_url}}){: width="500"}
 
 AMQP 명령은 class 와 method 로 구성됨
 - ex. ‘Connection.Start’ 명령은 ‘Connection’ class 와 ‘Start’ method 로 구성된 것
@@ -54,7 +54,7 @@ Routing key 를 전달하여 Exchange 와 Queue 를 연결한다.
 
 #### AMQP - Message Consume
 
-![amqp_msg_consume]({{"/img/rabbitmq_quickview/amqp_msg_consume.png"| relative_url}})
+![amqp_msg_consume]({{"/img/rabbitmq_quickview/amqp_msg_consume.png"| relative_url}}){: width="500"}
 
 Consumer Tag
 - Consumer 애플리케이션을 식별하는 고유한 문자열
