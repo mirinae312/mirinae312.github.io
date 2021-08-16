@@ -8,5 +8,7 @@ categories: develop
 
 ### ElasticSearch 살펴보기 - Quickview
 
+- [ES Cluster]({{ site.baseurl }}{% link _posts/2021-08-16-elasticserch_quickview_cluster.md %})
+
 
 <br>
