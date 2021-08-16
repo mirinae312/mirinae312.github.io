@@ -22,13 +22,13 @@ categories: develop
 
 | 자주사용하는 url param |   |
 |---------------------|---|
-| q | - 쿼리 <br> - ex. ’{필드명}:{검색어} AND {필드명}:{검색어}’ |
+| q | - 쿼리 <br> - ex. '{필드명}:{검색어} AND {필드명}:{검색어}' |
 | df | - 검색할 필드 <br> - 쿼리에 검색 대상 필드가 지정되어있지 않을 경우, 검색하는 필드 |
 | analyzer | - 형태소 분석기 |
 | analyzer_wildcard | - prefix, wildcard(*) 사용여부 (default: false) |
 | default_operator | - 검색 조건 연산자 (default: OR) |
 | _source | - 검색 결과에 문서본문 포함여부 (default: true) |
-| sort | - 정렬기준 필드 <br> - ex. ’{필드}:desc,{필드명}:asc’ |
+| sort | - 정렬기준 필드 <br> - ex. '{필드}:desc,{필드명}:asc' |
 | from | - 검색 시작 offset |
 | size | - 검색 결과 개수 |
 

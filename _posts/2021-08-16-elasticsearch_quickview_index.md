@@ -58,7 +58,7 @@ Document
 문서 등록 (index, type, mapping 을 함께 생성)
 
 ```
-curl -X GET -H ‘content-type: application/json’ ‘http://localhost:9200/{index-name}/{type-name}/{문서ID}' -d { 문서JSON }
+curl -X GET -H 'content-type: application/json' 'http://localhost:9200/{index-name}/{type-name}/{문서ID}' -d { 문서JSON }
 ```
 
 <br>
@@ -66,7 +66,7 @@ curl -X GET -H ‘content-type: application/json’ ‘http://localhost:9200/{in
 문서 조회
 
 ```
-curl -X GET ‘localhost:9200/{index-name}/{type-name}/{문서ID}’
+curl -X GET 'localhost:9200/{index-name}/{type-name}/{문서ID}'
 ```
 
 <br>
@@ -74,7 +74,7 @@ curl -X GET ‘localhost:9200/{index-name}/{type-name}/{문서ID}’
 Index 만 생성
 
 ```
-curl -X PUT ‘localhost:9200/{index-name}’
+curl -X PUT 'localhost:9200/{index-name}'
 ```
 
 <br>
@@ -82,8 +82,8 @@ curl -X PUT ‘localhost:9200/{index-name}’
 Index 의 mapping 조회
 
 ```
-curl -X GET ‘localhost:9200/{index-name}/_mapping/{type-name}?pretty’
-curl -X GET ‘localhost:9200/{index-name}/{type-name}/_mapping/{type-name}?pretty’
+curl -X GET 'localhost:9200/{index-name}/_mapping/{type-name}?pretty'
+curl -X GET 'localhost:9200/{index-name}/{type-name}/_mapping/{type-name}?pretty'
 ```
 
 <br>
@@ -91,9 +91,9 @@ curl -X GET ‘localhost:9200/{index-name}/{type-name}/_mapping/{type-name}?pret
 Index 에서 문서 검색
 
 ```
-curl -X GET ‘localhost:9200/{index-name목록 ,로 구분}/{type-name목록 ,로 구분}/_search?q={검색keyword}&field={검색대상field목록 ,로 구분}&size=1&pretty’
+curl -X GET 'localhost:9200/{index-name목록 ,로 구분}/{type-name목록 ,로 구분}/_search?q={검색keyword}&field={검색대상field목록 ,로 구분}&size=1&pretty'
 
-curl -X GET ‘localhost:9200/{index-name목록 ,로 구분}/{type-name목록 ,로 구분}/_search?q={검색keyword}&field={검색대상field목록 ,로 구분}&size=1&pretty’ -d ‘{
+curl -X GET 'localhost:9200/{index-name목록 ,로 구분}/{type-name목록 ,로 구분}/_search?q={검색keyword}&field={검색대상field목록 ,로 구분}&size=1&pretty' -d '{
   “query”: {
     “query_string”: “elastic search san francisco”,
     “default_field”: “name”,
@@ -118,7 +118,7 @@ curl -X GET ‘localhost:9200/{index-name목록 ,로 구분}/{type-name목록 ,�
 | geo-point | - 위도, 경도 데이터 저장 <br> - 위치기반 쿼리/집계/정렬에 활용 가능 | |
 | ip | - IPv4, IPv6 | |
 | object | - 다른 문서를 포함하는 형식 <br> - 'object' 키워드를 사용하여 mapping 을 정의하지 않음 <br> - 필드 값으로 다른 문서구조를 입력하는 형태로 필드 정의 | PUT test/_mapping/_doc/1 { "properties": { "companies": { "properties": {   /* object 타입 필드 정의 */ "name": { "type": text } } } } } |
-| nested | - 다른 문서의 배열을 포함하는 형식 <br> - ‘nested’ 키워드를 사용하여 mapping 을 정의하지 않음 <br> - 필드 값으로 다른 문서구조를 배열 형태로 입력하는 형태로 필드 정의 <br> - array 필드지만 각 object 내부에서 and 조건을 만족하는 문서만 검색 <br> - ES에서는 성능 최적화를 위하 parent 문서와 child(nested) 문서를 동일 샤드에 저장 | PUT test/_doc/2 {"properties": { "companies": [  /* nested 타입 필드 정의 */ { "name": "test-name1" }, { "name": "test-name1" } ] } } |
+| nested | - 다른 문서의 배열을 포함하는 형식 <br> - 'nested' 키워드를 사용하여 mapping 을 정의하지 않음 <br> - 필드 값으로 다른 문서구조를 배열 형태로 입력하는 형태로 필드 정의 <br> - array 필드지만 각 object 내부에서 and 조건을 만족하는 문서만 검색 <br> - ES에서는 성능 최적화를 위하 parent 문서와 child(nested) 문서를 동일 샤드에 저장 | PUT test/_doc/2 {"properties": { "companies": [  /* nested 타입 필드 정의 */ { "name": "test-name1" }, { "name": "test-name1" } ] } } |
 
 
 
