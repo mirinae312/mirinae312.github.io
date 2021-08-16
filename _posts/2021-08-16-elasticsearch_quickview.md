@@ -8,7 +8,13 @@ categories: develop
 
 ### ElasticSearch 살펴보기 - Quickview
 
-- [ES Cluster]({{ site.baseurl }}{% link _posts/2021-08-16-elasticserch_quickview_cluster.md %})
-
+- [ES Cluster]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_cluster.md %})
+- [ES Index]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_index.md %})
+- [ES Inverted Index]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_inverted_index.md %})
+- [ES API]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_api.md %})
+- [ES Query]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_query.md %})
+- [ES Aggragation]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_aggragation.md %})
+- [ES Lucene]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_lucene.md %})
+- [ES Monitoring]({{ site.baseurl }}{% link _posts/2021-08-16-elasticsearch_quickview_monitoring.md %})
 
 <br>
