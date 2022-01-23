@@ -118,12 +118,12 @@ categories: lifestyle
 다이어트 초반에 체중이 많이 빠졌다.
 체중계 교체로 초반 그래프는 다소 부정확한 부분이 있다.
 
-![alt weight_graph]({{../img/diet/weight_graph.png | relative_url}})
+![weight_graph]({{../img/diet/weight_graph.png | relative_url}})
 
 그럼에도 불구하고 초반에는 일주일에 2kg 가까이 빠진적도 있었다.
 (첫 일주일 87.4kg -> 85.6kg 약 1.8kg 감량)
 
-![alt weight_first_1week]({{../img/diet/weight_first_1week.png | relative_url}})
+![weight_first_1week]({{../img/diet/weight_first_1week.png | relative_url}})
 
 하지만, 약 1~2주 정도 지나자 감량 속도는 급격히 줄었다.
 다이어트 기간동안 1주일에 평균 0.5kg ~ 1.2kg 정도의 체중 감량이 있었고 체중 변화가 없거나 늘어났던 기간도 있었다.
@@ -142,14 +142,14 @@ categories: lifestyle
 
 전문가들은 (아래 그래프들처럼) 체중이 감량하는 패턴이 사람마다 다르다고 한다.
 
-![alt weight_pattern]({{../img/diet/weight_pattern.png | relative_url}})
+![weight_pattern]({{../img/diet/weight_pattern.png | relative_url}})
 
 즉, 내가 원하는대로 지속적으로 우하향하는 그래프가 안나올 수 있다는 것이다.
 그리고 다행인건 모든 패턴은 결국엔 우하향한다는 것이다.
 
 아래는 실제 내 체중 변화 패턴이다.
 
-![alt weight_graph]({{../img/diet/weight_graph.png | relative_url}})
+![weight_graph]({{../img/diet/weight_graph.png | relative_url}})
 
 첫번째 그래프와 같은 패턴처럼 보이긴 하지만 확대해보면 난리도 아니다.
 - 일주일간 체중 변화가 없기도 하고
@@ -161,7 +161,7 @@ categories: lifestyle
 미리 실행했음에도 불구하고 체중이 증가한 날은 심적으로 참 힘들었다.
 하지만 여러번 겪다보니 하루하루 체중변화에는 둔감해지고 전체적인 흐름을보게 되어 멘탈잡기를 좀 더 잘 할 수 있었다.
 
-![alt weight_cry]({{../img/diet/weight_cry.png | relative_url}})
+![weight_cry]({{../img/diet/weight_cry.png | relative_url}})
 
 > 블로그, 유튜브 검색해보기 - 추천 검색어: '체중감량 유형'
 > 참고: [나의 다이어트(체중감량) 유형은 무엇일까?](https://blog.naver.com/hj_jumping/222167791562)
@@ -176,7 +176,7 @@ categories: lifestyle
 
 <br>
 
-![alt weight_no_change]({{../img/diet/weight_no_change.png | relative_url}})
+![weight_no_change]({{../img/diet/weight_no_change.png | relative_url}})
 
 정체기 동안 맛본 좌절
 - '더 이상은 안되는건가?'
