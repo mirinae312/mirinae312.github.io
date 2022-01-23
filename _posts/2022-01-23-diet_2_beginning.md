@@ -11,6 +11,8 @@ categories: lifestyle
 - [포스트 코로나를 준비하며, 20kg 감량 다이어트 성공의 기록 - 3. 계획하고 실천하기]({{ site.baseurl }}{% link _posts/2022-01-23-diet_3_howto.md %})
 - [포스트 코로나를 준비하며, 20kg 감량 다이어트 성공의 기록 - 4. 마치며]({{ site.baseurl }}{% link _posts/2022-01-23-diet_4_final.md %})
 
+<br>
+
 ## 다이어트를 시작하며...
 
 난 프로그래머다.
