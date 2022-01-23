@@ -6,7 +6,7 @@ description: "시작하며..."
 categories: lifestyle
 ---
 
-![diet_title]({{../img/diet/diet_title.png | relative_url}})
+![diet_title]({{"/img/diet/diet_title.png" | relative_url}})
 
 ## 약 4개월동안 20kg 감량의 기록
 
