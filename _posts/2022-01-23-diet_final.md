@@ -2,7 +2,7 @@
 layout: post
 title:  "포스트 코로나를 준비하며, 20kg 감량 다이어트 성공의 기록"
 date:   2022-01-23 22:00:00 +0900
-description: "다이어트 기록 개요"
+description: "마치며"
 categories: lifestyle
 ---
 
